@@ -7,6 +7,7 @@ const user = {
     age: 30
 }
 
+
 app.get('/user', (req, res) => res.send(user));
 
 app.get('/hello', (req, res) => res.send('Hello World on hello route'));
